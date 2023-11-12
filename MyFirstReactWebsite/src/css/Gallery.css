@@ -1,0 +1,75 @@
+@import url('../css/repeatpart.css');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Gallerypage header{
+background: url('../Assets/Image/Home-image/intro-03.jpg');
+background-repeat: no-repeat ;
+background-size: cover;
+background-position: center; 
+height: 445px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ContainerGallery{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    flex-grow: 2    ;
+}
+.container-img{
+   width: 31%;
+   height: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.catagory{
+    margin: 20px auto;
+    width: 100%;
+    padding: 25px 200px;
+    text-align: center;
+}
+.catagory button{
+    padding: 5px 25px;
+margin: 0px 10px;  
+border-radius: 16px;  
+transition: all 1s ease;
+}
+.catagory button:nth-of-type(1){
+    border: 1px solid !important;
+    color: #fff !important;
+    background-color: black !important;
+}
+.catagory .button:hover{
+background-color: #030303 !important;
+color: white !important;
+}
+.black{
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+}
+.white{
+    background-color: rgb(252, 252, 251) !important; 
+    color: #030303;
+}
+.prev-next{
+    text-align: center;
+    padding:0px 0px 20px ;
+}
+.prev-next button{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: black;
+    color: aliceblue;
+}

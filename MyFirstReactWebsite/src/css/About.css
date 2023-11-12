@@ -1,0 +1,35 @@
+@import url('../css/repeatpart.css');
+header{
+    background: url('../Assets/Image/Home-image/blog-03.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center; 
+}
+.HeaderAbout{
+position: relative;
+}
+.Ourstory{
+    padding: 100px 0px;
+ background-color: #F4F1EB;
+}
+
+.Ourstory h3{
+    color: black;
+    letter-spacing: 7px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Ourstory p{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.sectionWelcome{
+display: flex;
+padding: 50px 0px;
+justify-content: space-around;
+
+}
+.rightSectionWelcome p{
+    text-align: center !important;
+    margin: 10px auto;
+}

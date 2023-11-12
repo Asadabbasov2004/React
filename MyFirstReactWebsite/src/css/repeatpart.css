@@ -1,0 +1,85 @@
+header{
+    background: url('../Assets/Image/Home-image/bg-cover-video-02.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center; 
+    height: 545px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .Header-h2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    z-index: 20;
+}
+.position-absolute-dark{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    z-index:2;
+   background-color:  rgba(0,0,0,0.5);
+}
+.hov-img-zoom{
+    width: 370px ;
+    height: 490px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.hov-img-zoom img{
+    object-fit: cover;
+    height: 100% !important;
+    width: 100% !important;
+    object-position: center;
+    border-radius: 1rem;
+    transition: all 1s ease;
+}
+.hov-img-zoom:hover>img{
+    transform: scale(1.2);
+}
+/*fixed background  */
+.bcground-fixed{
+    height: 400px;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('../Assets/Image/menu/header-menu-01.jpg');
+    background-attachment: fixed !important ;
+}
+/* header h3*/
+.Header-h3
+{
+    position: absolute;
+    z-index: 20;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 6px;
+
+}
+.hover-red{
+    color:aliceblue  ;
+    transition: all 1s ease;
+}
+.hover-red:hover{
+    color:#ec1d25 ;
+}

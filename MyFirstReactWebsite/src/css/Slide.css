@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.swiper {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 64px; */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .each-slide-effect{
+    width:100%;
+    height: 600px;
+  }
+  .each-slide-effect >div{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 0px;
+    position: relative;
+  }
+  .each-slide-effect h2{
+    z-index: 10 !important;
+    font-size: 90px;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    animation-duration: 3s;
+    /* animation-name:slide-show ; */
+    /* animation-play-state: running; */
+  }
+  .each-slide-effect h1{
+    font-size: 120px;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+  }
+  .each-slide-effect a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding:15px 20px;
+    background-color: rgb(91, 93, 96);
+    border-radius: 20px;
+  }
+  .each-slide-effect a:hover{
+    color:rgb(91, 93, 96) ;
+    background-color: #fff;
+  }
+  @keyframes slide-show{
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+

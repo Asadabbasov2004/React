@@ -1,0 +1,486 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed !important;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 100;
+    margin: 0px auto;
+    padding: 0% !important;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.nactive {
+    background-color: rgb(255, 255, 255) !important;
+    display: flex !important;
+    flex-direction: row;
+}
+.nactive a{
+    color: #222222 !important;
+}
+.transparent{
+background-color: transparent ;
+}
+.bm-burger-bars{
+  background-color:rgb(254, 254, 255)  !important ;
+
+}
+.nactive .bm-burger-bars{
+    background-color: #222222 !important;
+}
+.navbar ul {
+    width: 86% !important;
+    display: flex;
+    margin: 0px auto;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+nav ul a{
+    color: #fff;
+    transition: all 1s ease !important;
+    font-size: 18px ;
+} 
+nav .menu-header a:hover{
+    color: #d61c22 !important;
+}
+nav .icon-part a:hover{
+    color: #d61c22 !important;
+}
+.menu-header a{
+    font-size: 20px;
+}
+.navbar li {
+    display: inline-block;
+}
+.icon-part .fa-brands {
+    margin-right: 15px;
+}
+
+/* SectionWelcome.js  */
+.sectionWelcome {
+    background-color: #EFEFEF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.sectionWelcome .rightSectionWelcome {
+    padding: 50px;
+}
+
+.title-span{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Italianno', cursive;
+    color: #d61c22;
+    font-family: 'Dancing Script', cursive;
+}
+
+.rightSectionWelcome h3 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.rightSectionWelcome p {
+    max-width: 500px;
+}
+
+.rightSectionWelcome a {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sectionWelcome .leftSectionWelcome {
+    height: 400px !important;
+    width: 400px !important;
+    overflow: hidden;
+    display: block;
+    padding: 0% !important;
+    border-radius: 4rem !important;
+
+}
+
+.leftSectionWelcome img {
+    width: 100% !important;
+    height: 100% !important ;
+    object-fit: contain;
+    transition: all 1.5s;
+}
+
+.leftSectionWelcome:hover img {
+    transform: scale(1.1);
+}
+/* Sectionintro js */
+.SectionIntro-attechment{
+    width: 100%;
+    height: 350px;
+    background: url('../Assets/Image/Home-image/Home2.jpg');
+    background-attachment: fixed;
+    background-position: center 32px;
+    text-align: center;
+    padding: 120px ;
+}
+.SectionIntro-attechment span{
+font-size: 40px;
+margin-bottom: 10px;
+
+}
+ .title-h3{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 20px;
+    font-weight: 800;
+   text-transform: uppercase;
+}
+.blog-content{
+    width: 81%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    justify-content: center;
+    display: flex;
+}
+.blog-content >div{
+    width: 33%;
+    text-align: center;
+}
+.blog-content .blog-img{
+    margin: 0px auto;
+    overflow: hidden;
+    height: 220px;
+    width:370px;
+    border-radius: 1rem;
+}
+
+.blog-content .blog-img img{
+    height: 100%;
+    transition: 1s;
+}
+.blog-content .blog-img img:hover{
+transform: scale(1.1);
+}
+.blog-content div h4{
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: 1s;
+    margin: 15px 0px;
+}
+.blog-content h4:hover{
+    color: #d61c22;
+    cursor: pointer;
+}
+.blog-content div p{
+    padding:0px 25px;    
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+text-align:left;
+}
+.blog-content a{
+    text-align: left;
+    display: flex;
+    color: #333333;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding-inline-start: 25px;
+    margin-top: 10px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.blog-content i{
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+/* HomeMenu js section */
+.HomeMenu{
+    background-color:#F5F2EC ;
+    padding:100px 0px 70px;
+}
+.HomeMenu .container{
+    width: 80%;
+}
+.HomeMenu .title-h3{
+    letter-spacing: 7px;
+    margin:0px 0px 20px;
+    font-size: 50px;
+    color: #222222;
+}
+
+.HomeMenu .col-md-8 .col-12 .hov-img-zoom{
+    height: 230px;
+}
+.HomeMenu .col-md-4 .col-12 .hov-img-zoom{
+    height: 232px ;
+}
+.hov-img-zoom{
+    width: 370px ;
+    height: 490px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.hov-img-zoom img{
+    object-fit: cover;
+    height: 100% !important;
+    width: 100% !important;
+    object-position: center;
+    border-radius: 1rem;
+    transition: all 1s ease;
+}
+.hov-img-zoom:hover>img{
+    transform: scale(1.2);
+}
+.btn-2{
+    background-color: #EFEFEF;
+    padding: 15px 20px;
+    letter-spacing: 4px;
+    color: #222222;
+    font-size: 22px;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+.HomeMenu .hov-img-zoom .btn-2{
+    position: absolute;
+     z-index: 1;
+   
+}
+.btn-2:hover{
+    background-color: #d61c22 !important;
+}
+/* HomeReservation js */
+.HomeReservation{
+padding: 70px 0px 40px;
+background-color: #EFEFEF;
+}
+.HomeReservation form input{
+border: 1px solid;
+width: 270px;
+padding: 5px 14px;
+border-radius: 10px;
+margin-bottom: 10px;
+background-color: #fff;
+}
+.HomeReservation form select{
+    width: 270px;
+    text-align: center;
+    padding: 5px 14px;
+    border-radius: 10px;
+}
+.HomeReservation span{
+    margin: 10px 0px 5px;
+    padding-inline-start: 12px;
+}
+.react-ios-time-picker{
+    margin-bottom: 250px;
+}
+.form-btn{
+    padding: 5px 15px;
+    border: 1px solid #fff !important;
+    background-color: #222222 !important;
+    color: #EFEFEF;
+    width: max-content;
+    font-size: 18px;
+    margin: 20px 200px;
+}
+.HomeReservation .hov-img-zoom {
+    width: 400px !important;
+    margin: 0px auto;
+    height: 450px !important;
+    overflow: hidden !important;
+    border-radius: 1rem;
+}
+.HomeReservation img{
+    width:100% !important;
+    object-fit: cover !important;
+    object-position: 0% !important;
+    margin: 0px;
+}
+.HomeReservation .hov-img-zoom:hover>img{
+    transform: scale(1.1) !important;
+}  
+/* SectionVideo js*/
+.sectionVideo{
+    background: url('../Assets/Image/Home-image/bg-cover-video-02.jpg');
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.position-absolute-dark{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    z-index:2;
+   background-color:  rgba(0,0,0,0.5);
+}
+.sectionVideo div:first-of-type{
+    z-index: 4;
+    height: max-content;
+}
+.sectionVideo div:first-of-type .title-span{
+    font-size:47px;
+}
+.sectionVideo div:first-of-type .title-h3{
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+.circle{
+    height: 80px !important;
+    width: 80px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.circle:hover{
+transform: scale(1.2);
+background-color: #d61c22;
+color: #fff;
+}
+
+.modal-made{
+    position: absolute  !important;
+    z-index: 1 !important;
+    height: 600px !important;
+    width: 100% ;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);;
+}
+.modal-made-content{
+    padding: 60px ;
+}
+.modal-made button{
+    position: absolute;
+    right: 20px;
+    margin-top: -50px !important;
+    color: #F5F2EC;
+    font-size: 40px;
+}
+/* homeBlog js */
+.homeBlog{
+padding: 20px 0px;
+}
+.homeBlog .title-h3{
+color: #222222;
+letter-spacing: 10px;
+font-size: 45px;
+font-weight: 700;
+}
+
+.homeBlog .blog-content h4{
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: start;
+    padding-inline-start: 15px;
+}
+.homeBlog .blog-content{
+    padding-top: 20px;
+}
+/* footer js */
+footer{
+    background-color: #222222;
+    color: #999999;
+    padding: 30px 0px;
+}
+footer ul{
+    padding: 10px 0px;
+}
+footer ul li{
+list-style: none;
+margin: 5px 0px;
+}
+footer h4{
+    color: #fff;
+}
+footer a{
+    color: #d61c22;
+}
+footer i{
+    color:#cccccc ;
+    margin: 0px 20px 0px 0px;
+}
+footer a:hover{
+    color: #d61c22;
+}
+footer .sidebarGalleryItem{
+    position: relative;
+}
+.absolute-red{
+    background-color: #d61c22;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 1s ease;
+
+}
+.sidebarGalleryItem:hover>.absolute-red{
+    opacity: 0.5;
+}
+.arrow{
+    position: fixed;
+    bottom: 10%;
+    right: 1%;
+    z-index: 200;
+    color: rgb(156, 152, 160);
+    background-color: #222222;
+    text-align: center;
+    padding: 10px;
+    transition: all 1s ease;
+}
+.arrow:hover{
+    background-color: #d61c22;
+}
+.arrow i{
+    font-size: 20px;
+    display: block;
+    margin: 0px auto;
+}
