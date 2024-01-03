@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import image1 from '../../Assets/Image/Home-image/Home1.jpg';
-import image1 from '../../Assets/Image/Home-image/Home2.jpg';
+import image2 from '../../Assets/Image/Home-image/Home2.jpg';
 const ContainerAbout = () => {
     return (
     <section className='container-About '>
@@ -22,7 +22,7 @@ const ContainerAbout = () => {
 
         <div className='sectionWelcome flex-reverse'>
             <div className='leftSectionWelcome col-md-6'>
-                <img src={image1} alt=''/>
+                <img src={image2} alt=''/>
             </div>
             <div className='rightSectionWelcome col-md-6 '>
                 <span className='title-span'>
